@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form>
+        <h1>Prepare your next trip with me..</h1>
+        <p>Please take a moment to get in touch, I will get back to you shortly.</p>
+
+        <div class="column">
+            <div>
+                <label for="name">Full Name</label>
+                <input type="text" name="name" id="name" required placeholder="please enter your name">
+            </div>
+            <div>
+                <label for="the-email">Email Address</label>
+                <input type="email" name="email" id="the-email" required placeholder="please enter your email"
+                    value="Nour@gmail.com">
+            </div>
+            <div>
+                <label for="the-phone">Phone Number</label>
+                <input type="tel" name="phone" id="the-phone" required placeholder="please enter your phone number">
+            </div>
+            <!-- male or female -->
+            <div>
+                <div>
+                    <label>Gender</label>
+                </div>
+                <div>
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label class="inline-label" for="male">Male</label>
+                </div>
+                <div>
+                    <input type="radio" name="gender" id="female" value="female">
+                    <label class="inline-label" for="female">Female</label>
+                </div>
+            </div>
+            <!-- end radio -->
+            <div>
+                <label for="date">Arriving Date</label>
+                <input type="date" id="date" name="date">
+            </div>
+            <div>
+                <label for="date">Departure Date</label>
+                <input type="date" id="date" name="date">
+            </div>
+            <div>
+                <label for="file">Profile Picture</label>
+                <input type="file" id="file" name="file">
+            </div>
+            <div>
+                <label for="file">Passport</label>
+                <input type="file" id="file" name="file">
+            </div>
+            <div>
+                <label for="file">Visa</label>
+                <input type="file" id="file" name="file">
+            </div>
+            <!-- country -->
+            <div>
+                <label for="Cities">Where would you like to Travel?</label>
+                <select name="Cities" id="Cities"></select>
+                <option value="">Choose one</option>
+                <option value="Minya">Minya</option>
+                <option value="Sharm El-Sheikah">Sharm El-Sheikah</option>
+                <option value="Sohag">Sohag</option>
+                <option value="Aswan">Aswan</option>
+                <option value="Alexandria">Alexandria</option>
+                <option value="Cairo">Cairo</option>
+            </div>
+        </div>
+        <div class="column">
+            <div>
+                <label>Please check the services that you need</label>
+                <div>
+                    <input type="checkbox" name="Airline-Tickets" id="Airline-Tickets">
+                    <label class="inline-label" for="Airline-Tickets">Airline-Tickets</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="Rental-Car" id="Rental-Car">
+                    <label class="inline-label" for="Rental-Car">Rental-Car</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="Hotel-Accomadations" id="Hotel-Accomadations">
+                    <label class="inline-label" for="Hotel-Accomadations">Hotel-Accomadations</label>
+                </div>
+            </div>
+            <div>
+                <label for="the-message">leave a message</label>
+                <textarea name="message" id="the-message"></textarea>
+            </div>
+            <input type="submit" value="Submit">
+            
+
+        </div>
+    </form>
+
+</body>
+
+</html>
