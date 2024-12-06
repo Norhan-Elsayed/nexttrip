@@ -5,7 +5,8 @@ html{
     background-repeat: no-repeat;
 }
 body{
-    background: rgba(255, 255, 255, 0.74);
+    /* background: rgba(255, 255, 255, 0.74); */
+    background-color: red;
     width: 90%;
     max-width: 800px;
     margin: 50px auto;
